@@ -1,0 +1,90 @@
+* {
+    background: black;
+    color: lime!important;
+    font-family: sans-serif;
+}
+
+body {
+  min-width:700px;
+  overflow-x:hidden;
+  background: black;
+  color: lime;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button, select, textarea, fieldset {
+    background: black !important;
+    text-shadow: none !important;
+    color: lime !important;
+    border-color: lime !important;
+    padding: 10px;
+    border-width: 1px;
+}
+
+input, textarea {
+    font-size: 14px;
+}
+
+fieldset {
+    border-color: lime;
+    margin: 10px 0;
+}
+
+#method {
+    width: 10%;
+    height: 38px;
+    border-radius: 0;
+    position: relative;
+    bottom: 2px;
+    -webkit-appearance: none;
+    border-width: 1px;
+}
+
+#request_uri {
+    width: 876px;
+}
+
+.param-pair, .request-header-pair {
+    margin: 4px 0;
+}
+
+.param-pair:first-child, .request-header-pair:first-child {
+    margin-top: 10px
+}
+
+.console-page {
+    width:1000px;
+    margin:10px auto 0 auto;
+}
+
+#request_wrapper {
+    margin-bottom:10px;
+}
+
+div#param_template {
+    display:none;
+}
+div#request_header_template {
+    display:none;
+}
+
+input[name="param_value"], input[name='request_header_value'] {
+    margin-left:20px;
+}
+textarea#response_status {
+    width:100%;
+}
+textarea#response_headers {
+    width:100%;
+}
+textarea#response_body {
+    width:100%;
+    min-height:270px;
+}
+
+#response_wrapper {
+    display:none;
+}
