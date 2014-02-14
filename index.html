@@ -1,12 +1,12 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
-  <title>API University Test Console</title>
+  <title>API Test Console</title>
   <link href="css/main.css" rel="stylesheet" type="text/css"/> 
 </head>
 <body>
   <div id="wrap" class="console-page container">
-    <h1>API University Test Console</h1>
+    <h1>API Test Console</h1>
 
     <fieldset>
       <legend>Request</legend>
@@ -59,17 +59,17 @@
         <legend>Response</legend>
         <div id="response_wrapper">
           <div id="response">
-            <textarea id="response_status"></textarea>
-            <textarea id="response_headers"></textarea>
-            <textarea id="response_body"></textarea>
+            <pre id="response_status"></pre>
+            <pre id="response_headers"></pre>
+            <pre id="response_body_wrapper"><code id="response_body"></code></pre>
           </div>
         </div>
       </fieldset>
-
     </div>
-    <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/magic.js"></script>
-      
+
   </div>
 </body>
 </html>
