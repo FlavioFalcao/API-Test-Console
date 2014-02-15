@@ -1,5 +1,5 @@
 * {
-    background: black;
+    background: black!important;
     color: lime!important;
     font-family: sans-serif;
 }
@@ -74,17 +74,25 @@ div#request_header_template {
 input[name="param_value"], input[name='request_header_value'] {
     margin-left:20px;
 }
-textarea#response_status {
+
+#response_status {
     width:100%;
 }
-textarea#response_headers {
+
+#response_headers {
     width:100%;
 }
-textarea#response_body {
+
+#response_body {
     width:100%;
     min-height:270px;
 }
 
+#response_body_wrapper {
+    width: 960px;
+    overflow: scroll;
+}
+
 #response_wrapper {
-    display:none;
+    /*display:none;*/
 }
