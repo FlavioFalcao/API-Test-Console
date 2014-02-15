@@ -1,7 +1,5 @@
 # API Test Console
 
-## Purpose
-
 Easily test web services that provide RESTful APIs.
 
 ## Todos
