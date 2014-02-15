@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Easily test web services that provide RESTful HTTP APIs. Built as part of the API University.
+Easily test web services that provide RESTful APIs.
 
 ## Todos
 
@@ -12,4 +12,4 @@ Easily test web services that provide RESTful HTTP APIs. Built as part of the AP
 
 ## Screenshot
 
-![API Test Console](http://i.imgur.com/tVz2OGl.png)
+![API Test Console](http://i.imgur.com/vgbmLZh.png)
